@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './Button';
 import Headerone from './Headerone';
+
 function Header() {
     return <div className='displayFlex'>
             <Button name= "Open Account" />
