@@ -1,16 +1,16 @@
 import React from 'react';
-
+import Button from './Button';
+import Headerone from './Headerone';
 function Header() {
-  return (
-    <header>
-      <img src="./images/logo.svg" alt="logo" />
-      <ul>
-        <li>About</li>
-        <li>Discover</li>
-        <li>Get Started</li>
-      </ul>
-    </header>
-  );
+    return <div className='displayFlex'>
+            <Button name= "Open Account" />
+            <Button name= "Close Account" />
+            <Button name= "Log In" />
+            <Button name= "Yoo! fam" />
+            <Headerone title= "Taiwo Akerele" />
+            <Headerone title= "Tech Bro" />
+            <Headerone title= "Kehinde Akerele" />
+        </div>
 }
 
 export default Header;
